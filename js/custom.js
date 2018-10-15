@@ -36,8 +36,6 @@
       right_side_bar();
 
   });
-
-
   //   Menu
   $('#menu .navbar-nav a').on('click', function() {
       $('#menu .navbar-nav').find('li.active').removeClass('active');
