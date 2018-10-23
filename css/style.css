@@ -3,6 +3,11 @@
         body {
             font-family: 'Battambang', cursive;
             background: #F5F6F7;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+        #head img{
+            height: 105px;
         }
         
         body,
@@ -474,7 +479,29 @@
         }
         /*bootstrap customize*/
         
-        @media (max-width: 1200px) {
+        @media (max-width: 991px) {
+           .article-sidebar-outline
+           {
+              display: none;
+           }
+           .img-thumbnail
+           {
+            display: none;
+           }
+        }
+
+        @media (max-width: 991px) {
+           .article-sidebar-outline1
+           {
+              display: block;
+           }
+           .img-thumbnail1
+           {
+            display: block;
+           }
+        }
+
+         @media (max-width: 1200px) {
             .container-custom {
                 width: 85%;
             }
